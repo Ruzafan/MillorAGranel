@@ -8,8 +8,8 @@ const LanguageContext = createContext(null);
 function detectInitialLang() {
   const saved = localStorage.getItem('milloragranel-lang');
   if (saved && LANGS.includes(saved)) return saved;
-  const browser = (navigator.language || 'es').substring(0, 2).toLowerCase();
-  return LANGS.includes(browser) ? browser : 'es';
+  const browser = (navigator.language || 'ca').substring(0, 2).toLowerCase();
+  return LANGS.includes(browser) ? browser : 'ca';
 }
 
 export function LanguageProvider({ children }) {
