@@ -11,13 +11,22 @@ export default function Products() {
         <p className="section-subtitle">{t('products.subtitle')}</p>
         <div className="products-grid">
           {categories.map((cat, i) => (
-            <div key={i} className="product-card">
-              <div className="product-image" style={{ backgroundColor: cat.color }}>
-                <span className="product-emoji">{cat.emoji}</span>
-              </div>
-              <div className="product-info">
-                <h3 className="product-name">{cat.name}</h3>
-                <p className="product-description">{cat.description}</p>
+            <div key={i} className={`product-card${cat.image ? ' flip-card' : ''}`}>
+              <div className="card-inner">
+                <div className="card-front">
+                  <div className="product-image" style={{ backgroundColor: cat.color }}>
+                    <span className="product-emoji">{cat.emoji}</span>
+                  </div>
+                  <div className="product-info">
+                    <h3 className="product-name">{cat.name}</h3>
+                    <p className="product-description">{cat.description}</p>
+                  </div>
+                </div>
+                {cat.image && (
+                  <div className="card-back">
+                    <img src={cat.image} alt={cat.name} />
+                  </div>
+                )}
               </div>
             </div>
           ))}

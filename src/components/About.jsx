@@ -13,10 +13,7 @@ export default function About() {
             {paragraphs.map((text, i) => <p key={i}>{text}</p>)}
           </div>
           <div className="about-image">
-            <div className="img-placeholder">
-              <span className="img-placeholder-icon">🏪</span>
-              <span className="img-placeholder-label">{t('about.imageAlt')}</span>
-            </div>
+            <img src="/tienda.jpeg" alt={t('about.imageAlt')} />
           </div>
         </div>
       </div>

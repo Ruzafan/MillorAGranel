@@ -7,6 +7,7 @@ import About from './components/About';
 import HowItWorks from './components/HowItWorks';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Carousel from './components/Carousel';
 import './styles/styles.css';
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
         <Features />
         <Products />
         <About />
+        <Carousel />
         <HowItWorks />
         <Contact />
       </main>
