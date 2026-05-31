@@ -28,7 +28,7 @@ export default function Contact() {
             <div className="contact-block">
               <span className="contact-icon">✉️</span>
               <div>
-                <p><a href="mailto:hola@milloragranel.cat">{t('contact.email')}</a></p>
+                <p><a href="mailto:bulkshop@milloragranel.cat">{t('contact.email')}</a></p>
               </div>
             </div>
 

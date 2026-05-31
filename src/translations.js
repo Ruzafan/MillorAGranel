@@ -62,7 +62,7 @@ export const translations = {
       address: 'Carrer Major, 31',
       city: '17230 Palamós, Girona',
       phone: '+34 674 51 11 92',
-      email: 'hola@milloragranel.cat',
+      email: 'bulkshop@milloragranel.cat',
       hoursTitle: 'Horario de apertura',
       hours: [
         { day: 'Lunes – Sábado', time: '10:00 – 13:30 / 17:00 – 20:00' },
@@ -141,7 +141,7 @@ export const translations = {
       address: 'Carrer Major, 31',
       city: '17230 Palamós, Girona',
       phone: '+34 674 51 11 92',
-      email: 'hola@milloragranel.cat',
+      email: 'bulkshop@milloragranel.cat',
       hoursTitle: "Horari d'obertura",
       hours: [
         { day: 'Dilluns – Dissabte', time: '10:00 – 13:30 / 17:00 – 20:00' },
@@ -220,7 +220,7 @@ export const translations = {
       address: 'Carrer Major, 31',
       city: '17230 Palamós, Girona',
       phone: '+34 674 51 11 92',
-      email: 'hola@milloragranel.cat',
+      email: 'bulkshop@milloragranel.cat',
       hoursTitle: 'Opening hours',
       hours: [
         { day: 'Monday – Saturday', time: '10:00 – 13:30 / 17:00 – 20:00' },
@@ -299,7 +299,7 @@ export const translations = {
       address: 'Carrer Major, 31',
       city: '17230 Palamós, Girona',
       phone: '+34 674 51 11 92',
-      email: 'hola@milloragranel.cat',
+      email: 'bulkshop@milloragranel.cat',
       hoursTitle: "Horaires d'ouverture",
       hours: [
         { day: 'Lundi – Samedi', time: '10h00 – 13h30 / 17h00 – 20h00' },
