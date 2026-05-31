@@ -16,7 +16,7 @@ export default function Carousel() {
         >
           {doubled.map((url, i) => (
             <div key={i} className="carousel-slide">
-              <img src={url} alt="" />
+              <img src={url} alt="" loading="lazy" decoding="async" />
             </div>
           ))}
         </div>

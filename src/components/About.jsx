@@ -13,7 +13,7 @@ export default function About() {
             {paragraphs.map((text, i) => <p key={i}>{text}</p>)}
           </div>
           <div className="about-image">
-            <img src="/tienda.jpeg" alt={t('about.imageAlt')} />
+            <img src="/tienda.jpeg" alt={t('about.imageAlt')} loading="lazy" decoding="async" />
           </div>
         </div>
       </div>

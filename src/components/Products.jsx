@@ -24,7 +24,7 @@ export default function Products() {
                 </div>
                 {cat.image && (
                   <div className="card-back">
-                    <img src={cat.image} alt={cat.name} />
+                    <img src={cat.image} alt={cat.name} loading="lazy" decoding="async" />
                   </div>
                 )}
               </div>
