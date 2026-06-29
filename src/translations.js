@@ -39,11 +39,11 @@ export const translations = {
       ],
     },
     about: {
-      title: 'Sobre Millor a Granel',
+      title: 'Acerca de Millor a Granel',
       paragraphs: [
         'Somos una tienda de alimentación a granel situada en el Carrer Major de Palamós, en el corazón de la Costa Brava. Nuestro compromiso es ofrecer productos de calidad mientras cuidamos el planeta.',
-        'Creemos que comprar a granel es la forma más sensata y sostenible de consumir: pagas solo por lo que necesitas, reduces los envases de plástico y disfrutas de productos más frescos con mayor rotación.',
-        'Visítanos y descubre una forma diferente de hacer la compra. Más consciente, más sostenible, más Millor.',
+        'Creemos que comprar a granel es la forma más sensata y sostenible de consumir: pagas sólo por lo que necesitas, reduces los envases de plástico y disfrutas de productos más frescos con mayor rotación.',
+        'Visítanos y descubre una forma diferente de hacer la compra. Más consciente, más sostenible, más "Millor".',
       ],
       imageAlt: 'Interior de la tienda Millor a Granel',
     },
@@ -121,8 +121,8 @@ export const translations = {
       title: 'Sobre Millor a Granel',
       paragraphs: [
         "Som una botiga d'alimentació a granel situada al Carrer Major de Palamós, al cor de la Costa Brava. El nostre compromís és oferir productes de qualitat mentre cuidem el planeta.",
-        'Creiem que comprar a granel és la manera més raonable i sostenible de consumir: pagues només pel que necessites, reduceixes els envasos de plàstic i gaudeixes de productes més frescos amb major rotació.',
-        "Vine a visitar-nos i descobreix una manera diferent de fer la compra. Més conscient, més sostenible, més Millor.",
+        'Creiem que comprar a granel és la manera més raonable i sostenible de consumir: pagues només pel que necessites, redueixes els envasos de plàstic i gaudeixes de productes més frescos amb major rotació.',
+        'Vine a visitar-nos i descobreix una manera diferent de fer la compra. Més conscient, més sostenible, més "Millor".',
       ],
       imageAlt: 'Interior de la botiga Millor a Granel',
     },
@@ -178,7 +178,7 @@ export const translations = {
       items: [
         { icon: '🌱', title: 'Sustainable', text: 'Bring your own containers and reduce plastic to a minimum' },
         { icon: '⚖️', title: 'Zero waste', text: 'Buy only the exact amount you need, nothing more' },
-        { icon: '🌿', title: 'Fresher', text: 'Higher product turnover, always at its freshest' },
+        { icon: '🌿', title: 'Fresher', text: 'With our high product turnover, we ensure that every item is always at its freshest.' },
         { icon: '💚', title: 'Better price', text: 'No packaging costs means fairer prices for you' },
       ],
     },
@@ -201,7 +201,7 @@ export const translations = {
       paragraphs: [
         'We are a bulk food store located on Carrer Major in Palamós, in the heart of the Costa Brava. Our commitment is to offer quality products while caring for the planet.',
         'We believe that buying in bulk is the most sensible and sustainable way to shop: you pay only for what you need, reduce plastic packaging and enjoy fresher products with higher turnover.',
-        'Visit us and discover a different way to shop. More mindful, more sustainable, more Millor.',
+        'Visit us and discover a different way to shop. More mindful, more sustainable, more "Millor".',
       ],
       imageAlt: 'Inside Millor a Granel store',
     },
@@ -278,9 +278,9 @@ export const translations = {
     about: {
       title: 'À propos de Millor a Granel',
       paragraphs: [
-        "Nous sommes une épicerie en vrac située sur le Carrer Major à Palamós, au cœur de la Costa Brava. Notre engagement est d'offrir des produits de qualité tout en prenant soin de la planète.",
-        "Nous croyons que faire ses courses en vrac est la façon la plus sensée et durable de consommer : vous ne payez que ce dont vous avez besoin, réduisez les emballages plastique et profitez de produits plus frais avec une rotation plus élevée.",
-        "Venez nous rendre visite et découvrez une façon différente de faire vos courses. Plus consciente, plus durable, plus Millor.",
+        "Nous sommes une épicerie en vrac située au Carrer Major à Palamós, au cœur de la Costa Brava. Notre engagement est d'offrir des produits de qualité tout en prenant soin de la planète.",
+        "Nous croyons que faire ses courses en vrac est la façon la plus sensée et durable de consommer : vous ne payez que ce dont vous avez besoin, réduisez les emballages plastique et profitez de produits plus frais rotation élevée des produits, toujours au meilleur moment de leur fraîcheur.",
+        'Venez nous rendre visite et découvrez une façon différente de faire vos courses. Plus consciente, plus durable, plus "Millor".',
       ],
       imageAlt: 'Intérieur du magasin Millor a Granel',
     },
